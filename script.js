@@ -9,3 +9,7 @@ const links=document.querySelector(".links");
     //  console.log(links.classList.contains('show-links'))
     links.classList.toggle('show-links')
  })
+ const changecolor=document.querySelector('.btn-changecolor');
+ changecolor.addEventListener("click", function(){
+  document.body.classList.toggle("dark")
+ })
